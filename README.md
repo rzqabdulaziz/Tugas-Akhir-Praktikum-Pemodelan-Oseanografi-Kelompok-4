@@ -5,7 +5,7 @@ Repositori ini dibuat untuk memenuhi tugas akhir Praktikum Pemodelan Oseanografi
 2. Laila Atika Putri 26050120130118 A
 3. Rizqi Abdul Aziz 26050120130072 A
 4. Shafina Amalia Yahya
-5. Tsulasa Zuhrotun Nisak
+5. Tsulasa Zuhrotun Nisak 26050120130093 A
 6. Umar Haidar Al Faruq
 7. Yustinus Adyaksa Indrayana
 
