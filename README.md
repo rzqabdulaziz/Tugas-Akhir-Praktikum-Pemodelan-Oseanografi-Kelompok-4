@@ -28,34 +28,34 @@ Untuk contoh script pemodelan Hidrodinamika 1D kali ini merupakan penyelesaian p
 
 Penginputan nilai-nilai parameter
 
-`#Proses Awal
-p = 5000         #Panjang Grid
-T = 1200         #Waktu Simulasi
-A = 0.5          #Amplitudo
-D = 15           #Depth/Kedalaman
+`Proses Awal
+p = 5000         
+T = 1200         
+A = 0.5         
+D = 15           
 dt = 2
 dx = 100
-To = 300         #Periode
+To = 300         
 
-#Parameter Lanjutan
-g = 9.8          #Koefisien Gravitasi
+Parameter Lanjutan
+g = 9.8   
 pi = np.pi 
-C = np.sqrt(g*D) #Kecepatan Arus
-s = 2*pi/To      #Kecepatan Sudut Gelombang
-L = C*To         #Panjang Gelombang
-k = 2*pi/L       #Koefisien Panjang Gelombang
+C = np.sqrt(g*D) 
+s = 2*pi/To      
+L = C*To         
+k = 2*pi/L       
 Mmax = int(p//dx)
 Nmax = int(T//dt)`
 
 Penyelesaian persamaan Hidrodinamika 1D
 
-`zo = [None for _ in range(Mmax)]
+>zo = [None for _ in range(Mmax)]
 uo = [None for _ in range(Mmax)]
 
 hasilu = [None for _ in range(Nmax)]
 hasilz = [None for _ in range(Nmax)]
 
-for i in range(1, Mmax+1):
+>for i in range(1, Mmax+1):
   zo[i-1] = A*np.cos(k*(i)*dx)
   uo[i-1] = A*C*np.cos(k*((i)*dx+(0.5)*dx))/(D+zo[i-1])
 for i in range(1, Nmax+1):
@@ -71,13 +71,61 @@ for i in range(1, Nmax+1):
     hasilz[i-1] = zb
   for p in range(0, Mmax):
     uo[p] = ub[p]
-    zo[p] = zb[p]`
+    zo[p] = zb[p]
     
-`def rand_col_hex_string():
-return f'#{format(np.random.randint(0,16777215), "#08x")[2:]}'
+Pembuatan Grafik
 
-hasilu_np = np.array(hasilu)
-hasilz_np = np.array(hasilz)`
+>def rand_col_hex_string():
+  return f'#{format(np.random.randint(0,16777215), "#08x")[2:]}
+
+>hasilu_np = np.array(hasilu)
+hasilz_np = np.array(hasilz)
+
+>fig0, ax0 = plt.subplots(figsize=(12,8))
+for i in range (1, 16):
+  col0 = rand_col_hex_string()
+  line, = ax0.plot(hasilu_np[:,i-1], c=col0, label=f'n={i}')
+  ax0.legend()
+
+  ax0.set(xlabel='Waktu', ylabel='Kecepatan Arus', title='''Shafina Amalia Yahya_26050120140169
+  Perubahan Kecepatan Arus Dalam Grid Tertentu di sepanjang Waktu''')
+  ax0.grid()
+
+fig1, ax1 = plt.subplots(figsize=(12,8))
+for i in range(1, 16):
+  col1= rand_col_hex_string()
+  line, = ax1.plot(hasilz_np[:,i-1], c=col1, label=f'n={i}')
+  ax1.legend()
+
+  ax1.set(xlabel='Waktu', ylabel='Elevasi Muka Air', 
+          title='''Shafina Amalia Yahya_26050120140169
+          Perubahan Elevasi Permukaan Air Dalam Grid Tertentu di sepanjang Waktu''')
+  ax1.grid()
+
+fig2, ax2 = plt.subplots(figsize=(12,8))
+for i in range(1, 16):
+  col2= rand_col_hex_string()
+  line, = ax2.plot(hasilu_np[i-1], c=col2, label=f't={i}')
+  ax2.legend()
+
+  ax2.set(xlabel='Grid', ylabel='Kecepatan Arus', 
+          title='''Shafina Amalia Yahya_26050120140169
+          Perubahan Kecepatan Arus Dalam Waktu Tertentu di Sepanjang Grid''')
+  ax2.grid()
+
+fig3, ax3 = plt.subplots(figsize=(12,8))
+for i in range(1, 16):
+  col3= rand_col_hex_string()
+  line, = ax3.plot(hasilz_np[i-1], c=col3, label=f't={i}')
+  ax3.legend()
+
+  ax3.set(xlabel='Grid', ylabel='Elevasi Muka Air', 
+          title='''Shafina Amalia Yahya_26050120140169
+          Perubahan Elevasi Muka Air Dalam Waktu Tertentu di Sepanjang Grid''')
+  ax3.grid()
+  
+Perintah untuk menampilkan hasil grafik pemodelan
+>plt.show()
 
 * **MODUL 4 : Persamaan Hidrodinamika 2D**
 
