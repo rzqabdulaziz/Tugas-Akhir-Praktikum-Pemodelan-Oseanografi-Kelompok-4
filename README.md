@@ -20,6 +20,13 @@ Pada modul ini
 * **MODUL 3 : Persaman Hidrodinamika 1D**
 
 Pada modul ini praktikan membahas persamaan Hidrodinamika 1D. Hidrodinamika adalah cabang dari mekanika fluida, khususnya zat cair _incompressible_ yang dipengaruhi oleh gaya inernal dan eksternal. Dalam hidrodinamika laut, gaya - gaya terpenting ada gaya gravitasi, gesek dan coriolis. Model Hidrodinamika yang dibahas pada modul ini adalah model yang dibangun dari adanya proses - proses yang mempengaruhi pergerakkan massa air (pasang surut, arus dan gelombang). Model hidrodinamika ini dibangun berdasarkan Hukum Konservasi Massa dan Hukum Momentum.
+
+Pada script pemodelan Hidrodinamika 1D digunakan dua library yaitu Matplotlib dan juga Numpy
+`import matplotlib.pyplot as plt
+import numpy as np`
+
+
+
 * **MODUL 4 : Persamaan Hidrodinamika 2D**
 
 Pada modul ini
