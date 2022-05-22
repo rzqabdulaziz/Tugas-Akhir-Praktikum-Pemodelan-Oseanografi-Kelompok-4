@@ -83,7 +83,7 @@ for i in range(1, Nmax+1):
 ```
 
 **Pembuatan Grafik**
->Menggunakan fungsi def yang biasa digunakan untuk menggabung atau menhimpun perintah perhitungan model
+>Menggunakan fungsi def yang biasa digunakan untuk menggabung atau menghimpun perintah perhitungan model
 
 ```
 def rand_col_hex_string():
