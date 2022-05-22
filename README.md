@@ -21,13 +21,12 @@ Pada modul ini
 
 Pada modul ini praktikan membahas persamaan Hidrodinamika 1D. Hidrodinamika adalah cabang dari mekanika fluida, khususnya zat cair _incompressible_ yang dipengaruhi oleh gaya inernal dan eksternal. Dalam hidrodinamika laut, gaya - gaya terpenting ada gaya gravitasi, gesek dan coriolis. Model Hidrodinamika yang dibahas pada modul ini adalah model yang dibangun dari adanya proses - proses yang mempengaruhi pergerakkan massa air (pasang surut, arus dan gelombang). Model hidrodinamika ini dibangun berdasarkan Hukum Konservasi Massa dan Hukum Momentum.
 
-Untuk contoh script pemodelan Hidrodinamika 1D kali ini merupakan penyelesaian perhitungan untuk mengetahui bagaimana hubungan antara elevasi muka air laut dan juga kecepatan arus terhadap ruang dan waktu yang dibuat menggunakan bahasa pemrograman Phyton dengan menggunakan dua library yaitu Matplotlib dan juga Numpy
+Untuk contoh script pemodelan Hidrodinamika 1D kali ini merupakan penyelesaian perhitungan untuk mengetahui bagaimana hubungan antara elevasi muka air laut dan juga kecepatan arus terhadap ruang dan waktu yang dibuat menggunakan bahasa pemrograman Phyton dengan menggunakan dua library yaitu Matplotlib yang berfungsi untuk menampilkan visualisasi hasil code dan juga Numpy yang berfungsi untuk perhintungan scientific
 
 `import matplotlib.pyplot as plt`
 `import numpy as np`
 
-Penginputan nilai-nilai parameter
-
+**Penginputan nilai parameter**
 ```
 Proses Awal
 p = 5000         
@@ -49,7 +48,7 @@ Mmax = int(p//dx)
 Nmax = int(T//dt)`
 ```
 
-Penyelesaian persamaan Hidrodinamika 1D
+**Penyelesaian persamaan Hidrodinamika 1D**
 
 ```
 zo = [None for _ in range(Mmax)]
@@ -58,7 +57,8 @@ uo = [None for _ in range(Mmax)]
 hasilu = [None for _ in range(Nmax)]
 hasilz = [None for _ in range(Nmax)]
 ```
-Kondisi untuk penyelesaian nilai uo dan zo
+**Penggunaan perintah looping untuk penyelesaian range nilai uo dan zo**
+
 ```
 for i in range(1, Mmax+1):
   zo[i-1] = A*np.cos(k*(i)*dx)
@@ -78,8 +78,9 @@ for i in range(1, Nmax+1):
     uo[p] = ub[p]
     zo[p] = zb[p]
 ```
-    
-Pembuatan Grafik
+
+**Pembuatan Grafik**
+Menggunakan fungsi def yang biasa digunakan untuk menggabung atau menhimpun perintah perhitungan model
 
 ```
 def rand_col_hex_string():
@@ -87,7 +88,11 @@ def rand_col_hex_string():
 
 hasilu_np = np.array(hasilu)
 hasilz_np = np.array(hasilz)
+```
 
+**Plot hasil perhitungan ke dalam Grafik**
+
+```
 fig0, ax0 = plt.subplots(figsize=(12,8))
 for i in range (1, 16):
   col0 = rand_col_hex_string()
@@ -132,11 +137,11 @@ for i in range(1, 16):
   ax3.grid()
   ```
 
-Perintah untuk menampilkan hasil grafik pemodelan
+**Perintah untuk menampilkan hasil grafik pemodelan Hidrodinamika 1D**
 
 `plt.show()`
 
-Hasil Grafik Pemodelan
+**Hasil Grafik Pemodelan Hidrodinamika 1D**
 
 ![image](https://user-images.githubusercontent.com/105702150/169676708-1242e839-ffc9-4dd4-bee2-799a45667a36.png)
 ![image](https://user-images.githubusercontent.com/105702150/169676710-c5abae7c-c7cb-468d-93bb-0c58d45afa13.png)
