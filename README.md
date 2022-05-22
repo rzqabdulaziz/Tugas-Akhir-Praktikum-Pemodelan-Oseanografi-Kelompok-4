@@ -23,8 +23,8 @@ Pada modul ini praktikan membahas persamaan Hidrodinamika 1D. Hidrodinamika adal
 
 Untuk contoh script pemodelan Hidrodinamika 1D kali ini merupakan penyelesaian perhitungan untuk mengetahui bagaimana hubungan antara elevasi muka air laut dan juga kecepatan arus terhadap ruang dan waktu yang dibuat menggunakan bahasa pemrograman Phyton dengan menggunakan dua library yaitu Matplotlib dan juga Numpy
 
-`import matplotlib.pyplot as plt
-import numpy as np`
+`import matplotlib.pyplot as plt`
+`import numpy as np`
 
 Penginputan nilai-nilai parameter
 
@@ -72,7 +72,12 @@ for i in range(1, Nmax+1):
   for p in range(0, Mmax):
     uo[p] = ub[p]
     zo[p] = zb[p]`
- 
+    
+`def rand_col_hex_string():
+return f'#{format(np.random.randint(0,16777215), "#08x")[2:]}'
+
+hasilu_np = np.array(hasilu)
+hasilz_np = np.array(hasilz)`
 
 * **MODUL 4 : Persamaan Hidrodinamika 2D**
 
