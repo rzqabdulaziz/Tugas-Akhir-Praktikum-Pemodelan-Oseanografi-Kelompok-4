@@ -60,7 +60,7 @@ uo = [None for _ in range(Mmax)]
 hasilu = [None for _ in range(Nmax)]
 hasilz = [None for _ in range(Nmax)]
 ```
-**Penggunaan perintah looping untuk penyelesaian range nilai uo dan zo**
+**Penggunaan perintah looping untuk penyelesaian range untuk nilai uo dan zo**
 
 ```
 for i in range(1, Mmax+1):
@@ -93,7 +93,7 @@ hasilu_np = np.array(hasilu)
 hasilz_np = np.array(hasilz)
 ```
 
-**Plot hasil perhitungan ke dalam Grafik**
+>Plot hasil perhitungan ke dalam Grafik
 
 ```
 fig0, ax0 = plt.subplots(figsize=(12,8))
