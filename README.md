@@ -181,7 +181,7 @@ df.head()
 ##############################################
 # Let's make a simple times series plot to checkout what the data look like.
 fig, (ax1, ax2, ax3) = plt.subplots(3, 1, figsize=(12, 10))
-ax2b = ax2.twinx()
+ax2b = ax2.twinx() 
 
 **Perhitungan Tekanan**
 
