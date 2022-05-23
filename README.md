@@ -160,17 +160,17 @@ Pada modul ini praktikan melakukan pemodelan data gelombang NDBC (National Buoy 
 # Copyright (c) 2018 Siphon Contributors. 
 # Distributed under the terms of the BSD 3-Clause License. 
 # SPDX-License-Identifier: BSD-3-Clause 
-"""
+```
 NDBC Bouy Meteorological Data Request 
 =====================================
 The NDBC keeps a 45-day recent rolling file for each bouy. This examples shows how to access
 the basic meteorogical data from a buoy and make a simple plot.
-"""
-
+```
+```
 import matplotlib.pyplot as plt
 
 from siphon.simplewebservice.ndbc import NDBC
-
+```
 ####################################################
 # Get a pandas data frame of all of the observations, meteorogical data is the default
 # observation set to query
