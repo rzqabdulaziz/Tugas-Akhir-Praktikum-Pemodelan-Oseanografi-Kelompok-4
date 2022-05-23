@@ -184,21 +184,18 @@ fig, (ax1, ax2, ax3) = plt.subplots(3, 1, figsize=(12, 10))
 ax2b = ax2.twinx() 
 
 **Perhitungan Tekanan**
-
 ax1.plot(df['time'], df['pressure'], color='black')
 ax1.set_ylabel('Pressure [hPa]')
 fig.suptitle('Fatiha Hening P_26050120130058_A', fontsize=18)
 
 **Perhitungan Kecepatan Angin serta arahnya**
-
 ax2.plot(df['time'], df['wind_speed'], color='tab:orange')
 ax2.plot(df['time'], df['wind_gust'], color='tab:olive', linestyle='--')
 ax2b.plot(df['time'], df['wind_direction'], color='tab:blue', linestyle='-')
 ax2.set_ylabel('Wind Speed [m/s]')
 ax2b.set_ylabel('Wind Direction')
 
-**Perhitungan Temperatus air**
-
+**Perhitungan Temperatur air**
 ax3.plot(df['time'], df['water_temperature'], color='tab:brown')
 ax3.set_ylabel('Water Temperature [degC]')
 
