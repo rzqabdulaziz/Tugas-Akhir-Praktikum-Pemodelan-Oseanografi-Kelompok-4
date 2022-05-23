@@ -152,7 +152,7 @@ for i in range(1, 16):
 ![image](https://user-images.githubusercontent.com/105702150/169676721-38a5c1fa-ac82-48b0-a171-1c0c04342958.png)
 
 
-* **MODUL 4 : Persamaan Hidrodinamika 2D 🌊 **
+* **MODUL 4 : Persamaan Hidrodinamika 2D 🌊**
 
 Pada modul ini
 
