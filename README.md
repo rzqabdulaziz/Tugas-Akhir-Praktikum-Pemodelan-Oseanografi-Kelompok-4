@@ -1,7 +1,7 @@
 # Tugas Akhir Praktikum Pemodelan Oseanografi Kelompok 4
 Repositori ini dibuat untuk memenuhi tugas akhir Praktikum Pemodelan Oseanografi 2022. Repositori ini mengandung seluruh _script_ pemrograman _python_ yang digunakan dalam Praktikum Pemodelan Oseanografi. Library yang digunakan pada Praktikum Pemodelan Oseanografi 2022 ini adalah _Numpy_ , _Matplotlib_ , _Sys_ dan _NDBC_ , 
 ## **MEMBER **
-1. Fatiha Hening Prastiwi
+1. Fatiha Hening Prastiwi 26050120130058 A 
 2. Laila Atika Putri 26050120130118 A 👩‍💻
 3. Rizqi Abdul Aziz 26050120130072 A 🧑‍💻
 4. Shafina Amalia Yahya 26050120140169 A 👩‍💻
@@ -155,6 +155,54 @@ for i in range(1, 16):
 * **MODUL 4 : Persamaan Hidrodinamika 2D 🌊**
 
 Pada modul ini praktikan melakukan pemodelan data gelombang NDBC (National Buoy Data Center) menggunakan miniconda 3, kemudian menginstall siphon dan membuka jupyter notebook pada miniconda 3 tersebut. Praktikan juga mengakses website NDBC NOOA untuk mengetahui lebih jelas lokasi stasiun dari gelombang yang akan dianalisis praktikan menggunakan persamaan hidrodinamika 2D. Penyebab utama terjadinya gelombang ialah angin yang bertiup di atas permukaan laut. Terdapat 3 faktor angin yang sangat berpengaruh dalam pembentukan gelombang, yaitu kecepatan angin, lamanya angin bertiup dan jarak rintangan diman angin bertiup atau fetch. Umumnya, makin kencang angin bertiup, maka makin besar gelombang yang terbentuk dan gelombang ini mempunyai kecepatan yang tinggi dengan panjang gelombang yang besar. Ditambah lagi, apabila gelombang yang akan dianalisis termasuk dalam perairan bebas, maka besar kemungkinan memiliki panjang gelombang sampai beberapa ratus meter.  
+
+**Command untuk menggunakan data dari NDBC dalam menjalankan program ini**
+# Copyright (c) 2018 Siphon Contributors. 
+# Distributed under the terms of the BSD 3-Clause License. 
+# SPDX-License-Identifier: BSD-3-Clause 
+"""
+NDBC Bouy Meteorological Data Request 
+=====================================
+The NDBC keeps a 45-day recent rolling file for each bouy. This examples shows how to access
+the basic meteorogical data from a buoy and make a simple plot.
+"""
+
+import matplotlib.pyplot as plt
+
+from siphon.simplewebservice.ndbc import NDBC
+
+####################################################
+# Get a pandas data frame of all of the observations, meteorogical data is the default
+# observation set to query
+df = NDBC.realtime_observations('46029') #Station ID
+df.head()
+
+**Command Buat Grafik dengan data NDBC**
+##############################################
+# Let's make a simple times series plot to checkout what the data look like.
+fig, (ax1, ax2, ax3) = plt.subplots(3, 1, figsize=(12, 10))
+ax2b = ax2.twinx()
+
+**Perhitungan Tekanan**
+
+ax1.plot(df['time'], df['pressure'], color='black')
+ax1.set_ylabel('Pressure [hPa]')
+fig.suptitle('Fatiha Hening P_26050120130058_A', fontsize=18)
+
+**Perhitungan Kecepatan Angin serta arahnya**
+
+ax2.plot(df['time'], df['wind_speed'], color='tab:orange')
+ax2.plot(df['time'], df['wind_gust'], color='tab:olive', linestyle='--')
+ax2b.plot(df['time'], df['wind_direction'], color='tab:blue', linestyle='-')
+ax2.set_ylabel('Wind Speed [m/s]')
+ax2b.set_ylabel('Wind Direction')
+
+**Perhitungan Temperatus air**
+
+ax3.plot(df['time'], df['water_temperature'], color='tab:brown')
+ax3.set_ylabel('Water Temperature [degC]')
+
+plt.show()
 
 ## **PENUTUP 🙌**
 
