@@ -154,7 +154,7 @@ for i in range(1, 16):
 
 * **MODUL 4 : Persamaan Hidrodinamika 2D 🌊**
 
-Pada modul ini
+Pada modul ini praktikan melakukan pemodelan data gelombang NDBC (National Buoy Data Center) menggunakan miniconda 3, kemudian menginstall siphon dan membuka jupyter notebook pada miniconda 3 tersebut. Praktikan juga mengakses website NDBC NOOA untuk mengetahui lebih jelas lokasi stasiun dari gelombang yang akan dianalisis praktikan menggunakan persamaan hidrodinamika 2D. 
 
 ## **PENUTUP 🙌**
 
