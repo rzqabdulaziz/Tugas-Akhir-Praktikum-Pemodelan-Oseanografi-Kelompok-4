@@ -158,9 +158,12 @@ for i in range(1, 16):
 Pada modul ini praktikan melakukan pemodelan data gelombang NDBC (National Buoy Data Center) menggunakan miniconda 3, kemudian menginstall siphon dan membuka jupyter notebook pada miniconda 3 tersebut. Praktikan juga mengakses website NDBC NOOA untuk mengetahui lebih jelas lokasi stasiun dari gelombang yang akan dianalisis praktikan menggunakan persamaan hidrodinamika 2D. Penyebab utama terjadinya gelombang ialah angin yang bertiup di atas permukaan laut. Terdapat 3 faktor angin yang sangat berpengaruh dalam pembentukan gelombang, yaitu kecepatan angin, lamanya angin bertiup dan jarak rintangan diman angin bertiup atau fetch. Umumnya, makin kencang angin bertiup, maka makin besar gelombang yang terbentuk dan gelombang ini mempunyai kecepatan yang tinggi dengan panjang gelombang yang besar. Ditambah lagi, apabila gelombang yang akan dianalisis termasuk dalam perairan bebas, maka besar kemungkinan memiliki panjang gelombang sampai beberapa ratus meter.  
 
 **Command untuk menggunakan data dari NDBC dalam menjalankan program ini**
-# Copyright (c) 2018 Siphon Contributors. 
-# Distributed under the terms of the BSD 3-Clause License. 
-# SPDX-License-Identifier: BSD-3-Clause 
+```
+Copyright (c) 2018 Siphon Contributors. 
+Distributed under the terms of the BSD 3-Clause License. 
+SPDX-License-Identifier: BSD-3-Clause 
+```
+
 ```
 NDBC Bouy Meteorological Data Request 
 =====================================
@@ -169,39 +172,45 @@ the basic meteorogical data from a buoy and make a simple plot.
 ```
 ```
 import matplotlib.pyplot as plt
-
 from siphon.simplewebservice.ndbc import NDBC
 ```
-####################################################
-# Get a pandas data frame of all of the observations, meteorogical data is the default
-# observation set to query
+**Get a pandas data frame of all of the observations, meteorogical data is the default
+observation set to query**
+```
 df = NDBC.realtime_observations('46029') #Station ID
 df.head()
-
+```
 **Command Buat Grafik dengan data NDBC**
-##############################################
-# Let's make a simple times series plot to checkout what the data look like.
+```
+Let's make a simple times series plot to checkout what the data look like.
 fig, (ax1, ax2, ax3) = plt.subplots(3, 1, figsize=(12, 10))
 ax2b = ax2.twinx() 
+```
 
 **Perhitungan Tekanan**
+```
 ax1.plot(df['time'], df['pressure'], color='black')
 ax1.set_ylabel('Pressure [hPa]')
 fig.suptitle('Fatiha Hening P_26050120130058_A', fontsize=18)
+```
 
 **Perhitungan Kecepatan Angin serta arahnya**
+```
 ax2.plot(df['time'], df['wind_speed'], color='tab:orange')
 ax2.plot(df['time'], df['wind_gust'], color='tab:olive', linestyle='--')
 ax2b.plot(df['time'], df['wind_direction'], color='tab:blue', linestyle='-')
 ax2.set_ylabel('Wind Speed [m/s]')
 ax2b.set_ylabel('Wind Direction')
+```
 
 **Perhitungan Temperatur air**
+```
 ax3.plot(df['time'], df['water_temperature'], color='tab:brown')
 ax3.set_ylabel('Water Temperature [degC]')
+```
 
 **Perintah untuk menampilkan hasil grafik modul 2D**
-plt.show()
+`plt.show()`
 
 **Hasil Grafik Pemodelan Hidrodinamika 2D**
 
