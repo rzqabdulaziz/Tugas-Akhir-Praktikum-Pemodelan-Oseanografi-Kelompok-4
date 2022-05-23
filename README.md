@@ -27,6 +27,7 @@ Pada modul ini praktikan membahas persamaan Hidrodinamika 1D. Hidrodinamika adal
 Untuk contoh script pemodelan Hidrodinamika 1D kali ini merupakan penyelesaian perhitungan untuk mengetahui bagaimana hubungan antara elevasi muka air laut dan juga kecepatan arus terhadap ruang dan waktu yang dibuat menggunakan bahasa pemrograman Phyton dengan menggunakan dua library yaitu Matplotlib yang berfungsi untuk menampilkan visualisasi hasil code dan juga Numpy yang berfungsi untuk perhintungan scientific
 
 `import matplotlib.pyplot as plt`
+
 `import numpy as np`
 
 **Penginputan nilai parameter**
