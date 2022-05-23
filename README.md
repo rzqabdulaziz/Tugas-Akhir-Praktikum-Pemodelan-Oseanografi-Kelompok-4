@@ -1,26 +1,26 @@
 # Tugas Akhir Praktikum Pemodelan Oseanografi Kelompok 4
 Repositori ini dibuat untuk memenuhi tugas akhir Praktikum Pemodelan Oseanografi 2022. Repositori ini mengandung seluruh _script_ pemrograman _python_ yang digunakan dalam Praktikum Pemodelan Oseanografi. Library yang digunakan pada Praktikum Pemodelan Oseanografi 2022 ini adalah _Numpy_ , _Matplotlib_ , _Sys_ dan _NDBC_ , 
-## **MEMBER**
-1. Fatiha Hening Prastiwi 26050120130058 A
-2. Laila Atika Putri 26050120130118 A
-3. Rizqi Abdul Aziz 26050120130072 A
-4. Shafina Amalia Yahya 26050120140169 A
-5. Tsulasa Zuhrotun Nisak 26050120130093 A
-6. Umar Haidar Al Faruq 
+## **MEMBER **
+1. Fatiha Hening Prastiwi
+2. Laila Atika Putri 26050120130118 A 👩‍💻
+3. Rizqi Abdul Aziz 26050120130072 A 🧑‍💻
+4. Shafina Amalia Yahya 26050120140169 A 👩‍💻
+5. Tsulasa Zuhrotun Nisak 26050120130093 A 👩‍💻
+6. Umar Haidar Al Faruq
 7. Yustinus Adyaksa Indrayana
 
 ## **MODUL SERTA METODE PENGERJAAN**
-* **MODUL 1 : Persamaan Adveksi Difusi 1D** 
+* **MODUL 1 : Persamaan Adveksi Difusi 1D 🌊** 
 
 Pada modul pertama praktikum pemodelan oseanografi mempelajari mengenai persamaan Adveksi Difusi 1 Dimensi. Adveksi adalah mekanisme perpindahan massa suatu materi dari titik ke titik lainnya. Adveksi juga aliran yang berkaitan dengan fluida dan termasuk dalam persamaan hiperbolik yang menggunakan mekanisme transportasi suatu gas atau zat cair dengan arah tertentu. Contoh penerapan di  bidang Oseanografi yaitu persamaan gelombang linear orde satu. Terdapat dua persamaan yaitu eksplisit dan implisit. Persamaan eksplisit terdapat stabilitas hitungan dan hitungannya lebih mudah tetapi membutuhkan proses coding lebih lama. Sedangkan pada persamaan implisit tidak ada stabilitas hitungan, dan hitungannya rumit, tetapi proses codingnya cepat. Penurunan persamaan ini bisa menggunakan metode FTCS yang merupakan gabungan dari selisih maju maju terhadap waktu dan selisih pusat terhadap ruang dengan solusi stabil bersyarat. Selain metode FTCS, dapat juga menggunakan metode Leapfrog (beda hingga) yaitu perluasan dari metode beda tengah terhadap ruang dan waktu. Skema Leapfrog ini didapatkan dari penurunan Deret Taylor. Penurunan persamaan yang lain dapat menggunakan skema Upstream yang digunakan untuk melengkapi ketidaksempurnaan dari metode Leapfrog karena nilai konsentrasi dalam komputer menjadi negatif walaupun konsentrasinya positif. Metode Upstream dibuat untuk model positif dari konsentrasi di alam yang merujuk ke lautan. Difusi adalah sebuah proses suatu zat bergerak dari konsentrasi tinggi ke rendah. Contoh penerapan di bidang Oseanografi yaitu oil spill. Diskritisasi difusi menggunakan metode eksplisit (FTCS) yang continue maupun discontinue. Jika syarat batas terpenuhi maka sama dengan overflow. 
 
-* **MODUL 2 : Persamaan Adveksi Difusi 2D** 
+* **MODUL 2 : Persamaan Adveksi Difusi 2D 🌊** 
 
 Pada modul ini praktikan mempelajari tentang persamaan Adveksi Difusi 2D. Pada umumnya, persamaan Adveksi Difusi 2D digunakan untuk mempelajari penyebaran polutan pada perairan dengan domain yang teratur dan menggunakan koefisien yang konstan, sedangkan persoalan yang berada disekitar kita menyatakan sebaliknya. Walaupun demikian, metode beda hingga tetap menyediakan solusi numerik yang akurat dan dapat dipakai untuk mendapatkan solusi numerik yang diinginkan. Selain itu, persamaan ini juga dapat digunakan untuk mengetahui pola sebaran senyawa pada air, distribusi temperatur, tingkat transfer oksigen, dan masih banyak lagi.
 
 Kemudian dari praktikum yang telah dilakukan, praktikan menggunakan persamaan ini untuk mempelajari pergerakan polutan berdasarkan data yang diberikan oleh asisten. Hasil dari praktikum ini didapat bahwa apabila C=0 dan Ad=1 maka polutan akan menyebar di satu titik tanpa bergerak ke arah manapun. Sedangkan jika C=1 dan Ad=0 maka polutan akan bergerak sesuai dengan arah aliran arus, namun penyebarannya akan sangat lambat atau bahkan tidak terjadi penyebaran. Selain itu diketahui juga bahwa arus memberikan peranan dalam proses adveksi difusi 2 dimensi dengan pergerakan polutan yang sesuai dengan arah arus, sedangkan koefisien adveksi difusi memberikan gambaran proses transport konsentrasi polutan ke segala arah. Kecepatan pergerakan dan penyebaran tergantung pada kecepatan arus. 
 
-* **MODUL 3 : Persaman Hidrodinamika 1D**
+* **MODUL 3 : Persaman Hidrodinamika 1D 🌊**
 
 Pada modul ini praktikan membahas persamaan Hidrodinamika 1D. Hidrodinamika adalah cabang dari mekanika fluida, khususnya zat cair _incompressible_ yang dipengaruhi oleh gaya inernal dan eksternal. Dalam hidrodinamika laut, gaya - gaya terpenting ada gaya gravitasi, gesek dan coriolis. Model Hidrodinamika yang dibahas pada modul ini adalah model yang dibangun dari adanya proses - proses yang mempengaruhi pergerakkan massa air (pasang surut, arus dan gelombang). Model hidrodinamika ini dibangun berdasarkan Hukum Konservasi Massa dan Hukum Momentum.
 
@@ -152,10 +152,17 @@ for i in range(1, 16):
 ![image](https://user-images.githubusercontent.com/105702150/169676721-38a5c1fa-ac82-48b0-a171-1c0c04342958.png)
 
 
-* **MODUL 4 : Persamaan Hidrodinamika 2D**
+* **MODUL 4 : Persamaan Hidrodinamika 2D 🌊 **
 
 Pada modul ini
 
-## **PENUTUP**
+## **PENUTUP 🙌**
 
-## **UCAPAN TERIMA KASIH**
+## **UCAPAN TERIMA KASIH 🙇‍♂️ 🙇‍♀️**
+Demikianlah _repository_ tugas akhir Praktikum Pemodelan Oseanografi 2022. Para _author_ memohon maaf jika ada kesalahan dalam penulisan maupun penjelasan materi pada _repository_ ini. Kami juga ingin berterima kasih kepada :
+1. Dr. Aris Ismanto, S.Si., M.Si. selaku dosen pengampu matakuliah Pemodelan Oseanografi.
+2. Prof. Dr. Denny Nugroho Sugianto, S.T., M.Si. selaku dosen pengampu matakuliah Pemodelan Oseanografi.
+3. Dr. Elis Indrayanti, S.T., M.Si. selaku dosen pengampu matakuliah Pemodelan Oseanografi.
+4. Rikha Widhiaratih, S.Si., M.Si selaku dosen pengampu matakuliah Pemodelan Oseanografi.
+5. Kakak - kakak asisten Praktikum Pemodelan Oseanografi 2022 yang sudah mendampingi dan juga mengajarkan selama keberjalanan praktikum.
+6. Teman - teman Oseanografi 2020 yang membantu atas tersusunnya _repository_ ini.
