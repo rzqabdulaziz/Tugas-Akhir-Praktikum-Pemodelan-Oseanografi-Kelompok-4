@@ -1,12 +1,12 @@
 # Tugas Akhir Praktikum Pemodelan Oseanografi Kelompok 4
 Repositori ini dibuat untuk memenuhi tugas akhir Praktikum Pemodelan Oseanografi 2022. Repositori ini mengandung seluruh _script_ pemrograman _python_ yang digunakan dalam Praktikum Pemodelan Oseanografi. Library yang digunakan pada Praktikum Pemodelan Oseanografi 2022 ini adalah _Numpy_ , _Matplotlib_ , _Sys_ dan _NDBC_ , 
 ## **MEMBER**
-1. Fatiha Hening Prastiwi
+1. Fatiha Hening Prastiwi 26050120130058 A
 2. Laila Atika Putri 26050120130118 A
 3. Rizqi Abdul Aziz 26050120130072 A
 4. Shafina Amalia Yahya 26050120140169 A
 5. Tsulasa Zuhrotun Nisak 26050120130093 A
-6. Umar Haidar Al Faruq
+6. Umar Haidar Al Faruq 
 7. Yustinus Adyaksa Indrayana
 
 ## **MODUL SERTA METODE PENGERJAAN**
