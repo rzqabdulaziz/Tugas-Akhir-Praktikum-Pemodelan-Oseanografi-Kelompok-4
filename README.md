@@ -154,7 +154,7 @@ for i in range(1, 16):
 
 * **MODUL 4 : Persamaan Hidrodinamika 2D 🌊**
 
-Pada modul ini praktikan melakukan pemodelan data gelombang NDBC (National Buoy Data Center) menggunakan miniconda 3, kemudian menginstall siphon dan membuka jupyter notebook pada miniconda 3 tersebut. Praktikan juga mengakses website NDBC NOOA untuk mengetahui lebih jelas lokasi stasiun dari gelombang yang akan dianalisis praktikan menggunakan persamaan hidrodinamika 2D. 
+Pada modul ini praktikan melakukan pemodelan data gelombang NDBC (National Buoy Data Center) menggunakan miniconda 3, kemudian menginstall siphon dan membuka jupyter notebook pada miniconda 3 tersebut. Praktikan juga mengakses website NDBC NOOA untuk mengetahui lebih jelas lokasi stasiun dari gelombang yang akan dianalisis praktikan menggunakan persamaan hidrodinamika 2D. Penyebab utama terjadinya gelombang ialah angin yang bertiup di atas permukaan laut. Terdapat 3 faktor angin yang sangat berpengaruh dalam pembentukan gelombang, yaitu kecepatan angin, lamanya angin bertiup dan jarak rintangan diman aangin bertiup atau fetch. Umumnya, makin kencang angin bertiup, maka makin besar gelombang yang terbentuk da gelombang ini mempunyai kecepatan yang tinggi dengan panjang gelombang yang besar. Ditambah lagi, apabila gelombang yang akan dianalisis termasuk dalam perairan bebas, maka besar kemungkinan memiliki panjang gelombang samapi beberapa ratus meter.  
 
 ## **PENUTUP 🙌**
 
