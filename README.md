@@ -150,7 +150,8 @@ for i in range(1, 16):
 ![image](https://user-images.githubusercontent.com/105702150/169676710-c5abae7c-c7cb-468d-93bb-0c58d45afa13.png)
 ![image](https://user-images.githubusercontent.com/105702150/169676713-9903b03e-f04e-4f3d-80de-8ef7801307e4.png)
 ![image](https://user-images.githubusercontent.com/105702150/169676721-38a5c1fa-ac82-48b0-a171-1c0c04342958.png)
-Grafik tersebut memiliki pola grafik sinusoidal dengan interval waktu dari 0-600 detik yang menunjukkan perubahan elevasi permukaan air dan kecepatan arus dalam grid dan waktu. Hal ini sesuai dengan teori gelombang amplitudo kecil yang menyatakan bahwa fluktuasi muka air dan kecepatan arus periodik terhadap jarak dan waktu. Elevasi dan keceptana arus masih berfluktuasi secara tetap dan teratur di waktu awal menunjukkan bahwa pada model ini tidak ada gangguan terhadap elevasi. Akan tetapi, mulai berantakan di waktu selanjutnya, hal ini karena nilai elevasi dan kecepatan arus yang semakin besar dan terdapat pula gangguan yang berasal dari faktor eksternal yang mana ada beberapa yang tidak sesuai dengan syarat kestabilannya.
+
+>Grafik tersebut memiliki pola grafik sinusoidal dengan interval waktu dari 0-600 detik yang menunjukkan perubahan elevasi permukaan air dan kecepatan arus dalam grid dan waktu. Hal ini sesuai dengan teori gelombang amplitudo kecil yang menyatakan bahwa fluktuasi muka air dan kecepatan arus periodik terhadap jarak dan waktu. Elevasi dan keceptana arus masih berfluktuasi secara tetap dan teratur di waktu awal menunjukkan bahwa pada model ini tidak ada gangguan terhadap elevasi. Akan tetapi, mulai berantakan di waktu selanjutnya, hal ini karena nilai elevasi dan kecepatan arus yang semakin besar dan terdapat pula gangguan yang berasal dari faktor eksternal yang mana ada beberapa yang tidak sesuai dengan syarat kestabilannya.
 
 * **MODUL 4 : Persamaan Hidrodinamika 2D 🌊**
 
