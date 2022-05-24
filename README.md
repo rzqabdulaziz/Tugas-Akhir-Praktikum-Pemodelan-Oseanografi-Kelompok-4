@@ -6,8 +6,8 @@ Repositori ini dibuat untuk memenuhi tugas akhir Praktikum Pemodelan Oseanografi
 3. Rizqi Abdul Aziz 26050120130072 A 🧑‍💻
 4. Shafina Amalia Yahya 26050120140169 A 👩‍💻
 5. Tsulasa Zuhrotun Nisak 26050120130093 A 👩‍💻
-6. Umar Haidar Al Faruq 26050120140069 B
-7. Yustinus Adyaksa Indrayana
+6. Umar Haidar Al Faruq 26050120140069 B 👨‍💻
+7. Yustinus Adyaksa Indrayana 
 
 ## **MODUL SERTA METODE PENGERJAAN**
 * **MODUL 1 : Persamaan Adveksi Difusi 1D 🌊** 
