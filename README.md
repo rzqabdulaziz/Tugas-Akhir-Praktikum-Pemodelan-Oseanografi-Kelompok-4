@@ -351,7 +351,7 @@ ax3.set_ylabel('Water Temperature [degC]')
 >Dari hasil run juga akan didapat 3 jenis grafik. Sebagai contoh grafik diatas yang merupakan hasil run dari salah satu satsiun dengan ID 46011 di Perairan Santa Maria. Yang pertama terdapat grafik pressure, grafik wind speed, gust, direction dan grafik water temperature. Pada grafik tekanan atmosfer dan temperatur air yang diolah praktikan tidak menunjukkan hasil apapun. Adapun untuk grafik kecepatan angin, embusan dan arah memiliki grafik hasil. Untuk embusan angin dilambangkan dengan warna olive yang terletak diantara 0-100 m/s atau berkisar 50 m/s, untuk arah dilambangkan dengan orange yang terletak diantara 0-0,2. Untuk kecepatan angin dilambangkan dengan warna biru yang memiliki kecepatan rata-rata diatas 1000 m/s.
 
 ## **PENUTUP 🙌**
-Demikianlah _repository_ tugas akhir Praktikum Pemodelan Oseanografi 2022. Para _author_ memohon maaf jika ada kesalahan dalam penulisan maupun penjelasan materi pada _repository_ ini. Kami juga ingin berterima kasih kepada :
+Demikianlah _repository_ tugas akhir Praktikum Pemodelan Oseanografi 2022. Jika pembaca ingin mencoba _script_ , pembaca dapat mengunduh file _script_ pada tab _release_. Para _author_ memohon maaf jika ada kesalahan dalam penulisan maupun penjelasan materi pada _repository_ ini. Kami juga ingin berterima kasih kepada :
 1. Dr. Aris Ismanto, S.Si., M.Si. selaku dosen pengampu matakuliah Pemodelan Oseanografi.
 2. Prof. Dr. Denny Nugroho Sugianto, S.T., M.Si. selaku dosen pengampu matakuliah Pemodelan Oseanografi.
 3. Dr. Elis Indrayanti, S.T., M.Si. selaku dosen pengampu matakuliah Pemodelan Oseanografi.
