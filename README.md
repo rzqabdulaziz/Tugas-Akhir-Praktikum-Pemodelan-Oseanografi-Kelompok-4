@@ -6,8 +6,8 @@ Repositori ini dibuat untuk memenuhi tugas akhir Praktikum Pemodelan Oseanografi
 3. Rizqi Abdul Aziz 26050120130072 A 🧑‍💻
 4. Shafina Amalia Yahya 26050120140169 A 👩‍💻
 5. Tsulasa Zuhrotun Nisak 26050120130093 A 👩‍💻
-6. Umar Haidar Al Faruq 26050120140069 B 👨‍💻
-7. Yustinus Adyaksa Indrayana 26050120140059 B 👨‍💻
+6. Umar Haidar Al Faruq 26050120140069 B
+7. Yustinus Adyaksa Indrayana
 
 ## **MODUL SERTA METODE PENGERJAAN**
 * **MODUL 1 : Persamaan Adveksi Difusi 1D 🌊** 
@@ -145,6 +145,13 @@ Syarat batas
     print('running timestep ke:' +str(n+1) + ' dari:' +str(Nt) + '('+ percentage(n+1,Nt)+')')
     print('Nilai CFL:' +str(cfl) + 'dengan arah: ' +str(theta))
 ```
+**Output Gambar Hasil Model Adveksi-Difusi 2D**
+
+
+https://user-images.githubusercontent.com/105702150/170010967-1cb19440-3d88-4993-8dc0-d367bd939dc7.mp4
+
+
+
 
 * **MODUL 3 : Persaman Hidrodinamika 1D 🌊**
 
@@ -347,8 +354,9 @@ ax3.set_ylabel('Water Temperature [degC]')
 
 >Dari hasil run juga akan didapat 3 jenis grafik. Sebagai contoh grafik diatas yang merupakan hasil run dari salah satu satsiun dengan ID 46011 di Perairan Santa Maria. Yang pertama terdapat grafik pressure, grafik wind speed, gust, direction dan grafik water temperature. Pada grafik tekanan atmosfer dan temperatur air yang diolah praktikan tidak menunjukkan hasil apapun. Adapun untuk grafik kecepatan angin, embusan dan arah memiliki grafik hasil. Untuk embusan angin dilambangkan dengan warna olive yang terletak diantara 0-100 m/s atau berkisar 50 m/s, untuk arah dilambangkan dengan orange yang terletak diantara 0-0,2. Untuk kecepatan angin dilambangkan dengan warna biru yang memiliki kecepatan rata-rata diatas 1000 m/s.
 
-## **PENUTUP 🙌 🙇‍♂️ 🙇‍♀️**
+## **PENUTUP 🙌**
 
+## **UCAPAN TERIMA KASIH 🙇‍♂️ 🙇‍♀️**
 Demikianlah _repository_ tugas akhir Praktikum Pemodelan Oseanografi 2022. Para _author_ memohon maaf jika ada kesalahan dalam penulisan maupun penjelasan materi pada _repository_ ini. Kami juga ingin berterima kasih kepada :
 1. Dr. Aris Ismanto, S.Si., M.Si. selaku dosen pengampu matakuliah Pemodelan Oseanografi.
 2. Prof. Dr. Denny Nugroho Sugianto, S.T., M.Si. selaku dosen pengampu matakuliah Pemodelan Oseanografi.
