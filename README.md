@@ -345,7 +345,7 @@ ax3.set_ylabel('Water Temperature [degC]')
 ![image](https://user-images.githubusercontent.com/105704001/169988729-6fcebda5-d628-4ba5-9cff-934193588805.png)
 ![image](https://user-images.githubusercontent.com/105704001/169986697-ddca9407-eadc-4a61-8c38-368b7dd8a1f2.png)
 
->Dari hasil run juga akan didapat 3 jenis grafik. Sebagai contoh, grafik diatas merupakan hasil run dari salah satu stsiun dengan ID 46011 di Perairan Santa Maria. Yang pertama terdapat grafik pressure, grafik wind speed, gust, direction dan grafik water temperature. Pada grafik tekanan atmosfer dan temperatur air yang diolah praktikan tidak menunjukkan hasil apapun. Adapun untuk grafik kecepatan angin, embusan dan arah memiliki grafik hasil. Untuk embusan angin dilambangkan dengan warna olive yang terletak diantara 0-100 m/s atau berkisar 50 m/s, untuk arah dilambangkan dengan orange yang terletak diantara 0-0,2. Untuk kecepatan angin dilambangkan dengan warna biru yang memiliki kecepatan rata-rata diatas 1000 m/s.
+>Dari hasil run juga akan didapat 3 jenis grafik. Sebagai contoh grafik diatas yang merupakan hasil run dari salah satu satsiun dengan ID 46011 di Perairan Santa Maria. Yang pertama terdapat grafik pressure, grafik wind speed, gust, direction dan grafik water temperature. Pada grafik tekanan atmosfer dan temperatur air yang diolah praktikan tidak menunjukkan hasil apapun. Adapun untuk grafik kecepatan angin, embusan dan arah memiliki grafik hasil. Untuk embusan angin dilambangkan dengan warna olive yang terletak diantara 0-100 m/s atau berkisar 50 m/s, untuk arah dilambangkan dengan orange yang terletak diantara 0-0,2. Untuk kecepatan angin dilambangkan dengan warna biru yang memiliki kecepatan rata-rata diatas 1000 m/s.
 
 ## **PENUTUP 🙌**
 
