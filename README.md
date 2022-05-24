@@ -148,8 +148,7 @@ Syarat batas
 **Output Gambar Hasil Model Adveksi-Difusi 2D**
 
 
-
-https://user-images.githubusercontent.com/106043312/170030016-30902e26-ff7c-4df5-b7e3-7477b15d8959.mp4
+https://user-images.githubusercontent.com/106043312/170036102-312985d5-20c3-4ee1-8585-d196cdb491c2.mp4
 
 
 >Berdasarkan hasil pemodelan diketahui pergerakan konsentrasi polutan searah dengan nilai tetha. Variabel C yaitu konsentrasi polutan berpengaruh terhadap kecepatan pergerakan polutan searah dengan nilai tetha (θ). Variabel ad yaitu koefisien difusi berpengaruh terhadap luasan sebaran polutan. Dari video terlihat bahwa luasan persebaran polutan akan bertambah seiring dengan berjalannya waktu, sedangkan konsentrasi akan berkurang. Bertambahnya luasan persebaran disebabkan oleh gerakan acak dari molekul-molekul polutan
