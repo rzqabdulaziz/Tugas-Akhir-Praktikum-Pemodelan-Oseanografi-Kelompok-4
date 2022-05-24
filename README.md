@@ -149,6 +149,10 @@ Syarat batas
 
 
 
+https://user-images.githubusercontent.com/106043312/170030016-30902e26-ff7c-4df5-b7e3-7477b15d8959.mp4
+
+
+
 * **MODUL 3 : Persaman Hidrodinamika 1D 🌊**
 
 Pada modul ini praktikan membahas persamaan Hidrodinamika 1D. Hidrodinamika adalah cabang dari mekanika fluida, khususnya zat cair _incompressible_ yang dipengaruhi oleh gaya inernal dan eksternal. Dalam hidrodinamika laut, gaya - gaya terpenting ada gaya gravitasi, gesek dan coriolis. Model Hidrodinamika yang dibahas pada modul ini adalah model yang dibangun dari adanya proses - proses yang mempengaruhi pergerakkan massa air (pasang surut, arus dan gelombang). Model hidrodinamika ini dibangun berdasarkan Hukum Konservasi Massa dan Hukum Momentum.
