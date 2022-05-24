@@ -342,9 +342,8 @@ ax3.set_ylabel('Water Temperature [degC]')
 
 **Hasil Grafik Pemodelan Hidrodinamika 2D**
 
-## **PENUTUP 🙌**
+## **PENUTUP 🙌 🙇‍♂️ 🙇‍♀️**
 
-## **UCAPAN TERIMA KASIH 🙇‍♂️ 🙇‍♀️**
 Demikianlah _repository_ tugas akhir Praktikum Pemodelan Oseanografi 2022. Para _author_ memohon maaf jika ada kesalahan dalam penulisan maupun penjelasan materi pada _repository_ ini. Kami juga ingin berterima kasih kepada :
 1. Dr. Aris Ismanto, S.Si., M.Si. selaku dosen pengampu matakuliah Pemodelan Oseanografi.
 2. Prof. Dr. Denny Nugroho Sugianto, S.T., M.Si. selaku dosen pengampu matakuliah Pemodelan Oseanografi.
