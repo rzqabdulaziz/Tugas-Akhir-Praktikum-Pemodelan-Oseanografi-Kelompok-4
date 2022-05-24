@@ -10,11 +10,11 @@ Repositori ini dibuat untuk memenuhi tugas akhir Praktikum Pemodelan Oseanografi
 7. Yustinus Adyaksa Indrayana 26050120140059 B 🧑‍💻
 
 ## **MODUL SERTA METODE PENGERJAAN 👷‍♂️ 👷‍♀️**
-### **MODUL 1 : PERSAMAAN ADVEKSI DIFUSI 1D 🌊** 
+* **MODUL 1 : Persamaan Adveksi Difusi 1D 🌊** 
 
 Pada modul pertama praktikum pemodelan oseanografi mempelajari mengenai persamaan Adveksi Difusi 1 Dimensi. Adveksi adalah mekanisme perpindahan massa suatu materi dari titik ke titik lainnya. Adveksi juga aliran yang berkaitan dengan fluida dan termasuk dalam persamaan hiperbolik yang menggunakan mekanisme transportasi suatu gas atau zat cair dengan arah tertentu. Contoh penerapan di  bidang Oseanografi yaitu persamaan gelombang linear orde satu. Terdapat dua persamaan yaitu eksplisit dan implisit. Persamaan eksplisit terdapat stabilitas hitungan dan hitungannya lebih mudah tetapi membutuhkan proses coding lebih lama. Sedangkan pada persamaan implisit tidak ada stabilitas hitungan, dan hitungannya rumit, tetapi proses codingnya cepat. Penurunan persamaan ini bisa menggunakan metode FTCS yang merupakan gabungan dari selisih maju maju terhadap waktu dan selisih pusat terhadap ruang dengan solusi stabil bersyarat. Selain metode FTCS, dapat juga menggunakan metode Leapfrog (beda hingga) yaitu perluasan dari metode beda tengah terhadap ruang dan waktu. Skema Leapfrog ini didapatkan dari penurunan Deret Taylor. Penurunan persamaan yang lain dapat menggunakan skema Upstream yang digunakan untuk melengkapi ketidaksempurnaan dari metode Leapfrog karena nilai konsentrasi dalam komputer menjadi negatif walaupun konsentrasinya positif. Metode Upstream dibuat untuk model positif dari konsentrasi di alam yang merujuk ke lautan. Difusi adalah sebuah proses suatu zat bergerak dari konsentrasi tinggi ke rendah. Contoh penerapan di bidang Oseanografi yaitu oil spill. Diskritisasi difusi menggunakan metode eksplisit (FTCS) yang continue maupun discontinue. Jika syarat batas terpenuhi maka sama dengan overflow. 
 
-### **MODUL 2 : PERSAMAAN ADVEKSI DIFUSI 2D 🌊** 
+* **MODUL 2 : Persamaan Adveksi Difusi 2D 🌊** 
 
 Pada modul ini praktikan mempelajari tentang persamaan Adveksi Difusi 2D. Pada umumnya, persamaan Adveksi Difusi 2D digunakan untuk mempelajari penyebaran polutan pada perairan dengan domain yang teratur dan menggunakan koefisien yang konstan, sedangkan persoalan yang berada disekitar kita menyatakan sebaliknya. Walaupun demikian, metode beda hingga tetap menyediakan solusi numerik yang akurat dan dapat dipakai untuk mendapatkan solusi numerik yang diinginkan. Selain itu, persamaan ini juga dapat digunakan untuk mengetahui pola sebaran senyawa pada air, distribusi temperatur, tingkat transfer oksigen, dan masih banyak lagi.
 
@@ -152,8 +152,9 @@ Syarat batas
 https://user-images.githubusercontent.com/106043312/170030016-30902e26-ff7c-4df5-b7e3-7477b15d8959.mp4
 
 
+>Berdasarkan hasil pemodelan diketahui pergerakan konsentrasi polutan searah dengan nilai tetha. Variabel C yaitu konsentrasi polutan berpengaruh terhadap kecepatan pergerakan polutan searah dengan nilai tetha (θ). Variabel ad yaitu koefisien difusi berpengaruh terhadap luasan sebaran polutan. Dari video terlihat bahwa luasan persebaran polutan akan bertambah seiring dengan berjalannya waktu, sedangkan konsentrasi akan berkurang. Bertambahnya luasan persebaran disebabkan oleh gerakan acak dari molekul-molekul polutan
 
-### **MODUL 3 : PERSAMAAN HIDRODINAMIKA 1D 🌊**
+* **MODUL 3 : Persaman Hidrodinamika 1D 🌊**
 
 Pada modul ini praktikan membahas persamaan Hidrodinamika 1D. Hidrodinamika adalah cabang dari mekanika fluida, khususnya zat cair _incompressible_ yang dipengaruhi oleh gaya inernal dan eksternal. Dalam hidrodinamika laut, gaya - gaya terpenting ada gaya gravitasi, gesek dan coriolis. Model Hidrodinamika yang dibahas pada modul ini adalah model yang dibangun dari adanya proses - proses yang mempengaruhi pergerakkan massa air (pasang surut, arus dan gelombang). Model hidrodinamika ini dibangun berdasarkan Hukum Konservasi Massa dan Hukum Momentum.
 
@@ -287,7 +288,7 @@ for i in range(1, 16):
 
 >Grafik tersebut memiliki pola grafik sinusoidal dengan interval waktu dari 0-600 detik dan juga interval grid sebanyak 0-50 menunjukkan perubahan elevasi permukaan air dan kecepatan arus dalam grid dan waktu. Hal ini sesuai dengan teori gelombang amplitudo kecil yang menyatakan bahwa fluktuasi muka air periodik terhadap jarak dan waktu dan komponen kecepatan akan berkurang dengan bertambahnya jarak ke bawah dihitung dari muka air. Elevasi dan kecepatan arus masih berfluktuasi secara tetap dan teratur di waktu awal menunjukkan bahwa pada model ini tidak ada gangguan. Akan tetapi, mulai berantakan di waktu selanjutnya, hal ini karena nilai elevasi dan kecepatan arus yang semakin besar dan terdapat pula gangguan yang berasal dari faktor eksternal yang mana ada beberapa yang tidak sesuai dengan syarat kestabilannya.
 
-### **MODUL 4 : PERSAMAAN HIDRODINAMIKA 2D 🌊**
+* **MODUL 4 : Persamaan Hidrodinamika 2D 🌊**
 
 Pada modul ini praktikan melakukan pemodelan data gelombang NDBC (National Buoy Data Center) menggunakan miniconda 3, kemudian menginstall siphon dan membuka jupyter notebook pada miniconda 3 tersebut. Praktikan juga mengakses website NDBC NOOA untuk mengetahui lebih jelas lokasi stasiun dari gelombang yang akan dianalisis praktikan menggunakan persamaan hidrodinamika 2D. Penyebab utama terjadinya gelombang ialah angin yang bertiup di atas permukaan laut. Terdapat 3 faktor angin yang sangat berpengaruh dalam pembentukan gelombang, yaitu kecepatan angin, lamanya angin bertiup dan jarak rintangan diman angin bertiup atau fetch. Umumnya, makin kencang angin bertiup, maka makin besar gelombang yang terbentuk dan gelombang ini mempunyai kecepatan yang tinggi dengan panjang gelombang yang besar. Ditambah lagi, apabila gelombang yang akan dianalisis termasuk dalam perairan bebas, maka besar kemungkinan memiliki panjang gelombang sampai beberapa ratus meter.  
 
