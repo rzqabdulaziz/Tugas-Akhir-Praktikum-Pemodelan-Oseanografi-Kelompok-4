@@ -148,10 +148,6 @@ Syarat batas
 **Output Gambar Hasil Model Adveksi-Difusi 2D**
 
 
-https://user-images.githubusercontent.com/105702150/170010967-1cb19440-3d88-4993-8dc0-d367bd939dc7.mp4
-
-
-
 
 * **MODUL 3 : Persaman Hidrodinamika 1D 🌊**
 
