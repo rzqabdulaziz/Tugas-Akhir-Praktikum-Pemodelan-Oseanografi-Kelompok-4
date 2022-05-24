@@ -7,7 +7,7 @@ Repositori ini dibuat untuk memenuhi tugas akhir Praktikum Pemodelan Oseanografi
 4. Shafina Amalia Yahya 26050120140169 A 👩‍💻
 5. Tsulasa Zuhrotun Nisak 26050120130093 A 👩‍💻
 6. Umar Haidar Al Faruq 26050120140069 B
-7. Yustinus Adyaksa Indrayana 26050120140059 B 🧑‍💻
+7. Yustinus Adyaksa Indrayana
 
 ## **MODUL SERTA METODE PENGERJAAN**
 * **MODUL 1 : Persamaan Adveksi Difusi 1D 🌊** 
@@ -342,8 +342,14 @@ ax3.set_ylabel('Water Temperature [degC]')
 
 **Hasil Grafik Pemodelan Hidrodinamika 2D**
 
-## **PENUTUP 🙌 🙇‍♂️ 🙇‍♀️**
+![image](https://user-images.githubusercontent.com/105704001/169986574-2dc0f89a-1aaf-482f-b34c-af943f39df20.png)
+![image](https://user-images.githubusercontent.com/105704001/169986697-ddca9407-eadc-4a61-8c38-368b7dd8a1f2.png)
 
+>Dari hasil run juga akan didapat 3 jenis grafik. Sebagai contoh, grafik diatas merupakan hasil run dari salah satu stsiun dengan ID 46011 di Perairan Santa Maria. Yang pertama terdapat grafik pressure, grafik wind speed, gust, direction dan grafik water temperature. Pada grafik tekanan atmosfer dan temperatur air yang diolah praktikan tidak menunjukkan hasil apapun. Adapun untuk grafik kecepatan angin, embusan dan arah memiliki grafik hasil. Untuk embusan angin dilambangkan dengan warna olive yang terletak diantara 0-100 m/s atau berkisar 50 m/s, untuk arah dilambangkan dengan orange yang terletak diantara 0-0,2. Untuk kecepatan angin dilambangkan dengan warna biru yang memiliki kecepatan rata-rata diatas 1000 m/s.
+
+## **PENUTUP 🙌**
+
+## **UCAPAN TERIMA KASIH 🙇‍♂️ 🙇‍♀️**
 Demikianlah _repository_ tugas akhir Praktikum Pemodelan Oseanografi 2022. Para _author_ memohon maaf jika ada kesalahan dalam penulisan maupun penjelasan materi pada _repository_ ini. Kami juga ingin berterima kasih kepada :
 1. Dr. Aris Ismanto, S.Si., M.Si. selaku dosen pengampu matakuliah Pemodelan Oseanografi.
 2. Prof. Dr. Denny Nugroho Sugianto, S.T., M.Si. selaku dosen pengampu matakuliah Pemodelan Oseanografi.
